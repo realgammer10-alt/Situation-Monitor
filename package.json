@@ -1,0 +1,17 @@
+{
+  "name": "situation-monitor-workspace",
+  "private": true,
+  "scripts": {
+    "build": "npm --prefix ./situation-monitor-main run build",
+    "build:pages": "npm --prefix ./situation-monitor-main run build:pages",
+    "deploy:check": "npm --prefix ./situation-monitor-main run deploy:check",
+    "check": "npm --prefix ./situation-monitor-main run check",
+    "dev": "npm --prefix ./situation-monitor-main run dev --",
+    "lint": "npm --prefix ./situation-monitor-main run lint",
+    "preview": "npm --prefix ./situation-monitor-main run preview --",
+    "test": "npm --prefix ./situation-monitor-main run test:unit --",
+    "test:unit": "npm --prefix ./situation-monitor-main run test:unit --",
+    "format": "npm --prefix ./situation-monitor-main run format",
+    "test:e2e": "npm --prefix ./situation-monitor-main run test:e2e --"
+  }
+}
